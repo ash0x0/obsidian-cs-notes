@@ -1,0 +1,1 @@
+Linear time complexity for cases where the algorithm time grows linearly as the input size grows.

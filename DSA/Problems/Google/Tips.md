@@ -1,0 +1,2 @@
+- If I don't remember the syntax or a function signature I can assume a function call or ask him for it if he knows it
+- Debug proactively
