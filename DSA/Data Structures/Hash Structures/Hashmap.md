@@ -1,6 +1,7 @@
 ---
-wikipedia: https://en.wikipedia.org/wiki/Hash_table
-source 1: https://www.geeksforgeeks.org/unordered_map-in-cpp-stl/
+sources:
+  - https://www.geeksforgeeks.org/unordered_map-in-cpp-stl/
+  - https://en.wikipedia.org/wiki/Hash_table
 aliases:
   - Hashtable
   - Hash Table

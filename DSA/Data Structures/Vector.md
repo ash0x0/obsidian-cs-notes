@@ -7,7 +7,7 @@ aliases:
   - arraylist
   - ArrayList
   - Array List
-source 1: https://www.geeksforgeeks.org/vector-in-cpp-stl/
+sources: https://www.geeksforgeeks.org/vector-in-cpp-stl/
 ---
 An ArrayList/Vector is a dynamically resizing array. It resizes itself when needed while still providing [[O(1)]] time for access.
 

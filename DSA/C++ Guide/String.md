@@ -23,7 +23,6 @@ str.pop_back();
 // Add character to end
 str.push_back('c');
 ```
-
 # Erase
 
 ## Remove all occurrences of a character

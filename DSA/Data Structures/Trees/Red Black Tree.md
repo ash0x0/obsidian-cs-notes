@@ -1,6 +1,7 @@
 ---
-source 1: https://www.geeksforgeeks.org/introduction-to-red-black-tree/
-source 2: https://www.geeksforgeeks.org/red-black-tree-in-cpp/
+sources:
+  - https://www.geeksforgeeks.org/introduction-to-red-black-tree/
+  - https://www.geeksforgeeks.org/red-black-tree-in-cpp/
 ---
 A Red Black Tree is a self-balancing [[Binary Search Tree (BST)]] where each node has an extra bit for denoting the color of the node, either red or black. This color coding is used to ensure that the tree remains balanced during insertions and deletions.
 

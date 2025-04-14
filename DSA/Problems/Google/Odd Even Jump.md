@@ -1,6 +1,5 @@
 ---
 Leetcode: https://leetcode.com/problems/odd-even-jump
-Difficulty: Hard
 ---
 # Problem
 

@@ -1,5 +1,5 @@
 ---
-source 1: https://www.geeksforgeeks.org/unordered_set-in-cpp-stl/
+sources: https://www.geeksforgeeks.org/unordered_set-in-cpp-stl/
 ---
 An unordered associative container that stores unique elements. Unlike [[Set]], it stores its elements using hashing. This provides average constant-time **O(1)** search, insert, and delete operations but the elements are not sorted in any particular order.
 
