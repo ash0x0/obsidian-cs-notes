@@ -39,26 +39,30 @@ Note that the cargo must be shipped in the order given, so using a ship of capac
 - `1 <= days <= weights.length <= 5 * 104`
 - `1 <= weights[i] <= 500`
 
-# Info
+# Solution
+## Info
+
 - the goal is to make sure the `weights` array would be shipped within `days`
 - load the ship in the same order in weights array
 - ship load < max capacity
 
-# Requirement
+## Requirement
+
 - determine ship capacity such that all packages in `weights` are shipped within `days`
 
-# Algorithm
+## Algorithm
 **Input:** weights = [1,2,3,4,5,6,7,8,9,10], days = 5
 **Output:** 15
 
 **Input:** weights = [3,2,2,4,1,4], days = 3
 **Output:** 6
+
 **Input:** weights = [1,2,3,1,1], days = 4
 **Output:** 3
 
-max(ceil(sumOfWeights / days), max(weights)) = 11;
+`max(ceil(sumOfWeights / days), max(weights)) = 11;`
 
-1. assume capacities from 1 to 500 - 
+1. assume capacities from 1 to 500
 	1. iterate over the array - for loop - O(n)
 		1. if subarraySum + weights[i] >= capacity
 			1. create a new chunk
@@ -103,9 +107,10 @@ public:
 }
 ```
 
+## Complexity
+
 O(sumOfWeights * n) = O(n)
 
-maxOfWeights ..............................................capacity .............................................. sumOfWeight
+## Optimization
 
-1. modularize the code into functions
-2. 
+maxOfWeights ..............................................capacity .............................................. sumOfWeight

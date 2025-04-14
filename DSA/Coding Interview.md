@@ -1,6 +1,51 @@
 # [[Data Structures & Algorithms]]
 
-## Five Algorithms Approaches
+## Problem Solving Steps
+
+1. Listen and pay attention to the problem description
+	1. Record every piece of unique or potentially useful information. Likely needed for optimal solution
+2. Ask questions to understand problem and resolve ambiguity
+	2. Ask questions about the part you think will be hardest. You might be understanding it incorrectly and might be easier than you think or not need to address it
+	3. Ask questions about the data: types, what the data presents, what it's meant for, who'll be using it, etc.
+3. Create an example that's representative, not too small and not a special case
+4. Develop a brute force solution and share it. Don't write code, just talk through it or create comments to represent it
+5. Design an algorithm
+	1. If the answer isn't obvious, look for a simpler variation of the problem. 
+		1. Remove one of the constraints or multiple. 
+		2. Think about any subproblems you can solve and start from there
+	2. What's the space and time complexity?
+	3. What happens if there's a lot of data?
+	4. What happens if there's no data or wrong data?
+	5. Does this design create other issues?
+	6. Did you make the right trade-offs? For which scenarios might the trade-offs be less optimal?
+	7. Does your algorithm leverage all available information or did you disregard or overlooking something useful?
+6. Walk through the optimal approach in detail before you start coding. Make sure you understand each step
+7. Write code at a moderate pace
+	1. Write pseudocode or comments first, but make sure to tell the interviewer you'll write the real code after
+	2. Write the code. Modularize and refactor as you go. Objective is to write good clean code
+	3. Use data structures generously. This shows you're both comfortable with them and you care about good OOP design
+	4. When writing on whiteboard or paper, start from upper lefthand corner to not crowd your code
+8. Optimize using [[BUD Optimization]]
+	2. Look for ununsed info
+	3. Solve manually on an example and reverse engineer how the algorithm works
+	4. Solve incorrectly and think about why the algorithm fails
+	5. Make time vs space tradeoffs. [[Hash Structures]] are useful here
+	6. Pre-process information. Maybe sort the array first, etc. to save time afterwards
+	7. Use a fresh and different example if stuck
+9. Test the code and carefully fix any mistakes
+	10. Conceptually walk through the code like you would in a detailed code review
+	11. Target unusual or non-standard code like unusual loop indices that may be off by one
+	12. Hot spots like arithmetic and null nodes, base cases in recursion, integer division that needs rounding or could cause division exceptions, etc.
+	13. Small test cases
+	14. Special cases and edge cases
+	15. Extreme cases: 0, negative, null, maximums, minimums
+	16. User error: wrong input, wrong usage
+	17. Happy paths
+10. When you find a bug, fix it carefully. Think first then act
+	18. Think about the bug and the fix before willy nilly trying something. You don't want to be seen as a random fixer and it often creates more issues down the line
+
+
+## Five DSA Problem Approaches
 ### Exmaplify
 
 1. Write out specific examples of a problem
@@ -121,51 +166,6 @@ Numbers are randomly generated and stored into an (expanding) array. How would y
 	3. The smaller half is kept in a max heap, such that the biggest element of the smaller half is at the root. 
 	4. You have the potential median elements at the roots. 
 	5. If the heaps are no longer the same size, you can "rebalance"the heaps by popping an element off the one heap and pushing it onto the other. 
-
-## Problem Solving Steps
-
-1. Listen and pay attention to the problem description
-	1. Record every piece of unique or potentially useful information. Likely needed for optimal solution
-2. Ask questions to understand problem and resolve ambiguity
-	2. Ask questions about the part you think will be hardest. You might be understanding it incorrectly and might be easier than you think or not need to address it
-	3. Ask questions about the data: types, what the data presents, what it's meant for, who'll be using it, etc.
-3. Create an example that's representative, not too small and not a special case
-4. Develop a brute force solution and share it. Don't write code, just talk through it or create comments to represent it
-5. Design an algorithm
-	1. If the answer isn't obvious, look for a simpler variation of the problem. 
-		1. Remove one of the constraints or multiple. 
-		2. Think about any subproblems you can solve and start from there
-	2. What's the space and time complexity?
-	3. What happens if there's a lot of data?
-	4. What happens if there's no data or wrong data?
-	5. Does this design create other issues?
-	6. Did you make the right trade-offs? For which scenarios might the trade-offs be less optimal?
-	7. Does your algorithm leverage all available information or did you disregard or overlooking something useful?
-6. Walk through the optimal approach in detail before you start coding. Make sure you understand each step
-7. Write code at a moderate pace
-	1. Write pseudocode or comments first, but make sure to tell the interviewer you'll write the real code after
-	2. Write the code. Modularize and refactor as you go. Objective is to write good clean code
-	3. Use data structures generously. This shows you're both comfortable with them and you care about good OOP design
-	4. When writing on whiteboard or paper, start from upper lefthand corner to not crowd your code
-8. Optimize using [[BUD Optimization]]
-	2. Look for ununsed info
-	3. Solve manually on an example and reverse engineer how the algorithm works
-	4. Solve incorrectly and think about why the algorithm fails
-	5. Make time vs space tradeoffs. [[Hash Structures]] are useful here
-	6. Pre-process information. Maybe sort the array first, etc. to save time afterwards
-	7. Use a fresh and different example if stuck
-9. Test the code and carefully fix any mistakes
-	10. Conceptually walk through the code like you would in a detailed code review
-	11. Target unusual or non-standard code like unusual loop indices that may be off by one
-	12. Hot spots like arithmetic and null nodes, base cases in recursion, integer division that needs rounding or could cause division exceptions, etc.
-	13. Small test cases
-	14. Special cases and edge cases
-	15. Extreme cases: 0, negative, null, maximums, minimums
-	16. User error: wrong input, wrong usage
-	17. Happy paths
-10. When you find a bug, fix it carefully. Think first then act
-	18. Think about the bug and the fix before willy nilly trying something. You don't want to be seen as a random fixer and it often creates more issues down the line
-
 ## Solution Guidelines
 
 #### Clean Code

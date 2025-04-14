@@ -8,4 +8,4 @@
 	3. When
 	4. Where
 	5. Why
-6. Mock interview behavioral
+6. Mock behavioral interview

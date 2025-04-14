@@ -1,5 +1,5 @@
 ---
-source 1: https://www.geeksforgeeks.org/strings-in-cpp/
+sources: https://www.geeksforgeeks.org/strings-in-cpp/
 ---
 # Basic Usage
 
@@ -467,4 +467,16 @@ for (auto& x : s) {
 for (auto& x : s) {
 	x = tolower(x);
 }
+```
+
+# Substring
+
+`s.substr(begin, length)`
+
+```cpp
+
+// get all but last two characters
+string first = s.substr(0, s.size() - 2);
+// get the last two characters
+string last = s.substr(s.size() - 2);
 ```

@@ -5,4 +5,4 @@ Common algorithms:
 - [[Merge Sort]]
 - [[QuickSort]]
 - [[HeapSort]]
-- [[Counting Sort]]
+- [[DSA/Algorithms/Sorting/Counting Sort]]

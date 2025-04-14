@@ -30,8 +30,10 @@
 # Design Patterns
 
 - [[SOLID Principles]]
-- [[Object-Oriented Design (OOP)]]
+- [[Object-Oriented Design (OOD)]]
 - [[Domain-Driven Design (DDD)]]
+- [[Singleton]]
+- 
 
 # Testing
 

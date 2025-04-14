@@ -1,10 +1,22 @@
 ---
 sources:
   - https://www.geeksforgeeks.org/max_element-in-cpp/
+  - https://www.geeksforgeeks.org/accumulate-and-partial_sum-in-c-stl-numeric-header/
+  - https://www.geeksforgeeks.org/stdfind_if-stdfind_if_not-in-c/
 ---
 # Data Structures
 
-## `std::max_element`
+## `std::accumulate()`
+
+## `std::partial_sum()`
+
+## `std::min_element()`
+
+## `std::max_element()`
+
+## `std::find_if()`
+
+## `std::find_if_not()`
 
 Implements [[Linear Search]] to find the largest element in the range. It compares each element of the range one by one using the iterator/pointer provided to it as arguments.
 
