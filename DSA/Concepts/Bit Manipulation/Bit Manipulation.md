@@ -3,7 +3,6 @@ sources:
   - https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/
   - https://www.topcoder.com/thrive/articles/A%20bit%20of%20fun:%20fun%20with%20bits
 ---
-
 # Operations
 
 - [[Bitwise AND]]

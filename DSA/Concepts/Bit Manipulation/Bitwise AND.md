@@ -9,4 +9,5 @@ The `&` binary operator will return a result from performing `AND` binary operat
 # Examples
 
 - `001 & 010`
-	- Result is `000` >> `0 & 0`, `0 & 1`, `1 & 0`
+	- Result is `000`
+		- `0 & 0`, `0 & 1`, `1 & 0`
