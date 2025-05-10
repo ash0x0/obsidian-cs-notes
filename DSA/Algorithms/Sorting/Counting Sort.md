@@ -1,5 +1,5 @@
   
-[[Quicksort]] usually has a running time of [[O(n log n)]] , but is there an algorithm that can sort even faster? In general, this is not possible. Most sorting algorithms are [[Comparison Sort]], i.e. they sort a list just by comparing the elements to one another. A comparison sort algorithm cannot beat [[O(n log n)]] (worst-case) running time, since `n log(n)` represents the minimum number of comparisons needed to know where to place each element. For more details, you can see [these notes](http://www.cs.cmu.edu/~avrim/451f11/lectures/lect0913.pdf) (PDF).
+[[Quick Sort]] usually has a running time of [[O(n log n)]] , but is there an algorithm that can sort even faster? In general, this is not possible. Most sorting algorithms are [[Comparison Sort]], i.e. they sort a list just by comparing the elements to one another. A comparison sort algorithm cannot beat [[O(n log n)]] (worst-case) running time, since `n log(n)` represents the minimum number of comparisons needed to know where to place each element. For more details, you can see [these notes](http://www.cs.cmu.edu/~avrim/451f11/lectures/lect0913.pdf) (PDF).
 
 **Alternative Sorting**  
 

@@ -17,23 +17,26 @@ In increasing order of complexity these are:
 - [[O(n²)]]
 - [[O(n^3)]]
 - [[O(2^N)]]
-- [[O(N!)]]
+- [[O(n!)]]
 - [[O(N^N)]]
 - [[O(N^N * N!)]]
 
 # Time complexity
 
-1. Add the runtime complexity if the algorithm takes the form do x then do y
-2. Multiple the runtime complexities if the algorithm takes the form do y for each time you do x
+- Add the runtime complexity if the algorithm takes the form do x then do y
+- Multiple the runtime complexities if the algorithm takes the form do y for each time you do x
 ## Examples
 
 ### [[Recursion]]
 
-For recursion the complexity is O(branches ^ depth) where
-	1. Branches is the number of recursive calls in each iteration 
-	2. Depth is the total number of iterations
- 
-This is most often [[O(n)]] if the branches are 2 and the calls don't go all the way to N
+Recursion complexity is proportional to the maximum depth of the recursion tree, i.e. the length of longest path for recursion.
+
+This is `O(branches ^ depth)` where
+- Branches is the number of recursive calls in each iteration 
+- Depth is the total number of iterations
+
+This is most often [[O(n)]] if the branches are 2 and the calls don't go all the way to `n`.
+For most other recursions where we make multiple calls and the calls go all the way to `n`, the complexity is [[O(n!)]]
 ### Different Inputs
 
 In a nested loop with two different inputs, the runtime won't be [[O(n²)]], it'll be `O(a*b)` where a and b are the lengths of the inputs respectively

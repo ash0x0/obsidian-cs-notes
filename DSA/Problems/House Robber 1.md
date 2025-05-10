@@ -2,7 +2,7 @@
 
 # Solution
 
-## [[Dynamic Programming (DP)]] Top-Down ([[Memoization]]) - [[O(n)]] time - [[O(n)]] space
+## [[Dynamic Programming]] Top-Down ([[Memoization]]) - [[O(n)]] time - [[O(n)]] space
 
 ```cpp
 #include<vector>
@@ -29,7 +29,7 @@ public:
     }
 }
 ```
-## [[Dynamic Programming (DP)]] Bottom-up - [[O(n)]] time - [[O(n)]] space
+## [[Dynamic Programming]] Bottom-up - [[O(n)]] time - [[O(n)]] space
 
 ```cpp
 #include<vector>

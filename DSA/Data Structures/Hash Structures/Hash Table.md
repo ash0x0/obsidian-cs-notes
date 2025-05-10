@@ -7,6 +7,7 @@ aliases:
   - Hash Table
   - Hash Map
   - Dictionary
+  - Hashmap
 ---
 A structure that implements an [[Associative Array]] that maps keys to values and uses a hash function to compute an _index_, also called a _hash code_, into an array of _buckets_ or _slots_, from which the desired value can be found.
 

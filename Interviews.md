@@ -6,6 +6,20 @@
 # [[Behavioral/Behavioral Interview|Behavioral Interview]]
 
 # Interviewee Questions
+
+- What does success look like for this position?
+	- How will I know if I am accomplishing what is expected of me?
+- What is the last project you shipped?
+	- What was the goal, how long did it take, what were the stumbling blocks, what tools did you use?
+- What will my first 90 days in this role look like? First 180 days?
+- Who will I report to and how many people report to that person? 
+	- Do they have regular 1:1 with their team members?
+- Why did the last person who quit this team leave? The company?
+- If a startup, how long is your runway? How are financial decisions made
+- What would be my first project here? 
+	- Has someone already been working on this or is this in the aspirational stage?
+- What is the current state of the data infrastructure?
+	- How much work needs to be done on getting the infrastructure and pipeline into shape before we start analyzing that data?
 ## Informational
 
 - How much time do you spend of your day coding?

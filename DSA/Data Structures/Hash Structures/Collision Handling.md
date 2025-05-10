@@ -9,4 +9,8 @@ The easiest way to solve collisions is to add a linked list or similar data stru
  
 ## Chaining
 
+Each position in the hash structure becomes the head of a linked list containing the elements stored at that position. Essentially creating a chain under that address.
+
 ## Open Addressing
+
+Open addressing makes deletions tricky

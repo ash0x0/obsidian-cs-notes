@@ -47,7 +47,7 @@ For instance, the execution of the Fibonacci function would form a [[Binary Tr
 ## Space
 
 If there is no space take up in the algorithm then the space complexity is just the recursion related space.
-### Recursion related
+### Recursion Overhead
 
 Memory cost incurred by recursive function calls. i.e. call stack space. Since recurrsion only resolves at the end of the callchain when we reach the base case, this space taken up for each of the recursive steps for the entire chain. 
 
@@ -61,8 +61,6 @@ This is the space take up for other variables and data structures, usually globa
 # Conversion to Iteration
 
 We could convert recursion into iteration using a [[Stack]]. Similar to the behaviors of the function call stack, a stack follows the pattern of FILO (First-In-Last-Out), _i.e._ the last element that is added to a stack would come out first. 
-
-Recursion basics: **base case, recursive case**.
 
 Common problems:
 - factorial

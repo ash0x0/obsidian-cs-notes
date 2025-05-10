@@ -1,5 +1,3 @@
-[[Stack]]
-[[Queue]]
 # Operations
 - push
 - pop

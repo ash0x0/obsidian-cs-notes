@@ -1,0 +1,1 @@
+Selection sort is of [[O(n²)]] complexity

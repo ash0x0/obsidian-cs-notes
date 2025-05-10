@@ -5,4 +5,4 @@
 
 ## [[Recursion]]
 
-## [[Dynamic Programming (DP)]]
+## [[Dynamic Programming]]

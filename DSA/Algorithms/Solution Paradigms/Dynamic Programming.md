@@ -2,6 +2,8 @@
 sources:
   - https://leetcode.com/discuss/post/458695/dynamic-programming-patterns-by-aatalyk-pmgr/
   - https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr
+aliases:
+  - DP
 ---
 
 A programming paradigm to explore all possible solutions to a problem. Problems often have these characteristics:
@@ -48,14 +50,15 @@ Any DP algorithm can be implemented in one of two ways. Bottom-up with tabulatio
 ## Bottom-up (Tabulation)
 
 - Starts at a base case
-- Implemented as iteration. Typically nested for loops with [[Arrays]]
+- Implemented as iteration. Typically nested for loops with [[Array]]
 - Runtime is usually faster, as iteration doesn't have the overhead of recursion
 - Its downside is the ordering matters. We need to go through a logical ordering of solving subproblems.
 ## Top-down ([[Memoization]])
 
-- Implemented as recursion with memoization (typically using [[Hashmap]])
+- Implemented as recursion with memoization (typically using [[Hash Table]])
 - Usually easier to write, because with recursion the ordering of subproblems doesn't matter
 - This also means we don't need to solve every subproblem to find the answer
+- This is oftem more expensive that bottom-up, which is why we may want to convert top-down solutions to bottom-up after finishing them
 ## Top-down to Bottom-up
 
 To convert a top-down solution into a bottom-up, we must first find a logical order in which to iterate over the states.
