@@ -1,0 +1,1 @@
+A form of a [[Binary Tree]] that requires that the left children are less than or equal to the parent node and the right children are greater than the parent node.
