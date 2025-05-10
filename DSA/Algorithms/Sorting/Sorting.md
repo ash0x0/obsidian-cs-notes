@@ -7,3 +7,5 @@ In order of efficiency and complexity the most common sorting algorithms are:
 - [[Insertion Sort]]
 - [[HeapSort]]
 - [[DSA/Algorithms/Sorting/Counting Sort]]
+
+![[Pasted image 20250510144909.png]]

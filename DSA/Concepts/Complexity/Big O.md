@@ -21,6 +21,9 @@ In increasing order of complexity these are:
 - [[O(N^N)]]
 - [[O(N^N * N!)]]
 
+![[Pasted image 20250510145048.png]]
+
+![[Pasted image 20250510144833.png]]
 # Time complexity
 
 - Add the runtime complexity if the algorithm takes the form do x then do y
