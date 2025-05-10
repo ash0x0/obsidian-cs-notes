@@ -1,13 +1,11 @@
 1. Traverse the left subtree.
 2. Traverse the right subtree.
 3. Visit the root.
-
-# Usage
+# When to Use
 
 ## Node Deletion
 
 When you delete nodes in a tree, deletion process will be in post-order. You will delete its left child and its right child before you delete the node itself.
-
 ## Parsing mathematical expressions
 
 It is easier to write a program to parse a post-order expression. Here is an example:

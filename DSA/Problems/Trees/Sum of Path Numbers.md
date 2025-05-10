@@ -1,0 +1,3 @@
+# Solution
+
+## [[Depth First Search]]

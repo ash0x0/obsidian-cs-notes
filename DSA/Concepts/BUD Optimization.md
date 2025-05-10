@@ -3,4 +3,3 @@ This is a conceptual approach to improve your algorithmic code. Think about the 
 - Bottlenecks
 - Unnecessary Work
 - Duplicated Work
-

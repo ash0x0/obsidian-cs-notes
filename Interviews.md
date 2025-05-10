@@ -5,11 +5,6 @@
 
 # [[Behavioral/Behavioral Interview|Behavioral Interview]]
 
-# Company-Specific
-
-[[Microsoft]]
-[[Amazon]]
-
 # Interviewee Questions
 ## Informational
 

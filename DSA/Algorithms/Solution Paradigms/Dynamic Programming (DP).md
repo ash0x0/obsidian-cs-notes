@@ -1,3 +1,9 @@
+---
+sources:
+  - https://leetcode.com/discuss/post/458695/dynamic-programming-patterns-by-aatalyk-pmgr/
+  - https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr
+---
+
 A programming paradigm to explore all possible solutions to a problem. Problems often have these characteristics:
 
 1. It can be broken down into overlapping subproblems - smaller versions of the original problem that are re-used multiple times.
@@ -7,9 +13,10 @@ This is similar to:
 
 1. [[Greedy Algorithms]] in which problems have optimal substructure, but not overlapping ones.
 2. [[Divide & Conquer]] algorithms that break a problem into subproblems, but not overlapping ones.
+
 # Identification
 
-There are some problem descriptors that hit at a possible DP solution. These are shorthands that aren't always to be followed
+There are problem descriptors that hint at a DP solution. These are shorthands that aren't always true:
 
 - The problem asks for an optimum value (max or min) of something
 	- Minimum cost of x
@@ -18,30 +25,40 @@ There are some problem descriptors that hit at a possible DP solution. These are
 - The problem asks for the number of ways to do something
 	- How many ways are there to do x
 	- Is it possible to reach a certain point
-- **Future decisions rely on earlier decisions**
-	- Deciding to do something at step i affect the ability to do something at a later step
-	- Using one element prevents the usage of other elements,
-	- This is what makes a greedy algorithm invalid and a DP approach the correct one
-	- When trying to determine if this characteristic exists, assume it doesn't, come up with the greedy algorithm then use a counterexample to prove it won't work. This leads to concluding DP is the correct approach
+- The problem asks to make decisions that rely on earlier decisions
+	- Deciding to do something at step `i` affect the ability to do something at a later step
+	- Using one element prevents the usage of other elements
+	- This makes a greedy algorithm invalid and a DP approach the correct one
+	- When trying to determine if this characteristic exists, assume it doesn't, come up with the greedy algorithm then use a counterexample to prove it won't work. This concludes DP is the correct approach
 # Implementation
 
-Any DP algorithm can be implemented in one of two ways. Bottom-up with tabulation or top-down with memoization.
+## Framework
 
-To convert a top-down solution into a bottom-up solution, we must first find a logical order in which to iterate over the states.
+1. Define state - a state is a current step in the process, e.g. standing on step 6 in [[70. Climbing Stairs]] or robbing house 4 in [[House Robber 1]].
+2. Define state variables - a set of variables that can describe the scenario and define the current state, e.g. the step we're standing on or the house we're considering robbing, usually this is just the `i` step in the iteration
+3. Create a data structure or function that will compute or contain the answer to a problem given a certain state.
+	1. If this is a function then it's just a generalized step-wise form of the question we're being asked. For example, if it's "How many ways to climb to the top?" the function solves "How many ways to climb to step `i`?" 
+4. Find a recurrence relation to transition from state `i` to `i-1`, `i+1` or any other state
+	2. Ask what are the things we can do to get to state `i` or to another state from this state
+	3. Ask what are the options we have at state `i`
+5. Find a base case. This is most often initialized at the beginning and presents a known solution to a simple or initial form of the problem such as when `i = 1` and `i = 2`
+	1. Ask what state(s) can I find the answer to without using dynamic programming?
+
+Any DP algorithm can be implemented in one of two ways. Bottom-up with tabulation or top-down with memoization.
 ## Bottom-up (Tabulation)
 
 - Starts at a base case
 - Implemented as iteration. Typically nested for loops with [[Arrays]]
-- Runtime is usually faster, as iteration does not have the overhead that recursion does.
+- Runtime is usually faster, as iteration doesn't have the overhead of recursion
 - Its downside is the ordering matters. We need to go through a logical ordering of solving subproblems.
-
 ## Top-down ([[Memoization]])
 
 - Implemented as recursion with memoization (typically using [[Hashmap]])
-- Usually easier to write, because with recursion the ordering of subproblems does not matter
-- This also means that we don't need to solve every single subproblem to find the answer to a problem
-
+- Usually easier to write, because with recursion the ordering of subproblems doesn't matter
+- This also means we don't need to solve every subproblem to find the answer
 ## Top-down to Bottom-up
+
+To convert a top-down solution into a bottom-up, we must first find a logical order in which to iterate over the states.
 
 Start with the completed top-down implementation
 
@@ -136,7 +153,7 @@ public:
 }
 ```
 
-4. Copy the logic from the function into the loop and change from function calls to array acces
+4. Copy the logic from the function into the loop and change from function calls to array accesses
 
 ```cpp
 using namespace std;
@@ -158,17 +175,6 @@ public:
     }
 }
 ```
-## Framework
-
-1. Define state - a state is a current step in the process, e.g. standing on step 6 in [[70. Climbing Stairs]] or robbing house 4 in [[House Robber 1]].
-2. Define state variables - a set of variables that can describe the scenario and define the current state, e.g. the step we're standing on or the house we're considering robbing, usually this is just the `i` step in the iteration
-3. Create a data structure or function that will compute or contain the answer to a problem given a certain state.
-	1. If this is a function then it's just a generalized step-wise form of the question we're being asked. For example, if it's "How many ways to climb to the top?" the function solves "How many ways to climb to step `i`?" 
-4. Find a recurrence relation to transition from state `i` to `i-1`, `i+1` or any other state
-	1. Ask what are the things we can do to get to state `i` or to another state from this state
-	2. Ask what are the options we have at state `i`
-5. Find a base case. This is most often initialized at the beginning and presents a known solution to a simple or initial form of the problem such as when `i = 1` and `i = 2`
-	1. Ask what state(s) can I find the answer to without using dynamic programming?
 
 # Multidimensional DP
 
@@ -200,15 +206,10 @@ If you wanted to find the `n` Fibonacci number $f(n)$, you can break it down 
 
 This means the problem has optimal substructure, since a solution to the original problem can be formed from the solutions to the subproblems. These subproblems are also overlapping - for example, we would need $f(4)$ to calculate both $f(5)$ and $f(6)$.
 
+# Problem Sets
 
-
-- Top-down (memoization)
-- Bottom-up (tabulation)**.
-
-Common patterns:
-- knapsack
-- coin change
-- longest common subsequence (LCS)
-- matrix chain multiplication
- 
- 
+- [Max-Min](https://leetcode.com/problem-list/55ac4kuc/)
+- [Distinct Ways](https://leetcode.com/problem-list/55ajm50i/)
+- [Merging Intervals](https://leetcode.com/problem-list/55aj8s16/)
+- [Strings](https://leetcode.com/problem-list/55afh7m7/)
+- [Decision Making](https://leetcode.com/problem-list/55af7bu7/)
