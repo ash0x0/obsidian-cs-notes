@@ -87,3 +87,7 @@ int maximum_depth(TreeNode* root) {
     return max(left_depth, right_depth) + 1;
 }
 ```
+
+# In-order Successor
+
+This refers to the next node in an [[Inorder Traversal]]. The node with the smallest key that's still greater than the current node's key.
