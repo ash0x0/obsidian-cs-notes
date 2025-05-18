@@ -1,4 +1,17 @@
-# Interview
+---
+sources:
+  - https://www.amazon.jobs/en
+---
+# [Interview](https://www.amazon.jobs/content/en/how-we-hire/interviewing-at-amazon)
+
+## Online Application
+
+## Assessments
+
+## Phone Screen
+
+## Interview Round
+## [Leadership Principles](https://www.amazon.jobs/content/en/our-workplace/leadership-principles)
 ## Process
 - Online assessment
 	- Leetcode problems
