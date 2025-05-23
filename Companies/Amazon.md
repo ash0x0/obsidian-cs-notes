@@ -11,7 +11,7 @@ sources:
 ## Phone Screen
 
 ## Interview Round
-## [Leadership Principles](https://www.amazon.jobs/content/en/our-workplace/leadership-principles)
+## [[Leadership Principles]]
 ## Process
 - Online assessment
 	- Leetcode problems
