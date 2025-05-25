@@ -479,3 +479,13 @@ string first = s.substr(0, s.size() - 2);
 // get the last two characters
 string last = s.substr(s.size() - 2);
 ```
+
+# Repeating
+
+If we want to create a string with repeating characters, similar to python's `*` string operator, we can use the overloaded string constructor
+
+```cpp
+string spaces = string(5, ' ');
+```
+
+The second argument has to be a character, not a string.
