@@ -9,6 +9,8 @@ Time and space complexity expresses the rate of growth of the time and the space
 
 Big O notation describes the limiting behavior of a function as the arguments tend toward a value or infinity. i.e. it describes the growth of a function time as it relates to input growth. 
 
+This is considered **worst-case** complexity.
+
 In increasing order of complexity these are:
 - [[O(1)]]
 - [[O(log n)]]
@@ -24,6 +26,11 @@ In increasing order of complexity these are:
 ![[Pasted image 20250510145048.png]]
 
 ![[Pasted image 20250510144833.png]]
+# Properties
+
+- O(c + n) = O(n) where c is constant
+- O(cn) = O(n) where c is constant
+- 
 # Time complexity
 
 - Add the runtime complexity if the algorithm takes the form do x then do y

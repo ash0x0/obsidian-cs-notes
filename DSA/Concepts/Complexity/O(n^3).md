@@ -1,1 +1,1 @@
-Quadratic complexity. The algorithm time and/or space requirements scale quadratically with the size of the input. This is a dramatic scaling and is considered very bad.
+Cubic complexity. The algorithm time and/or space requirements scale cubically with the size of the input. This is a dramatic scaling and is considered very bad.
