@@ -93,7 +93,7 @@ void reverseRecursion(string &s, int l, int r) {
 revStr(s, 0, s.length() - 1);
 ```
 
-## [[Stack]]
+## [[DSA/Data Structures/Stacks & Queues/Stack]]
 
 ```cpp
 int reverseWithStack() {

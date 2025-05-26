@@ -60,7 +60,7 @@ This is the space take up for other variables and data structures, usually globa
 
 # Conversion to Iteration
 
-We could convert recursion into iteration using a [[Stack]]. Similar to the behaviors of the function call stack, a stack follows the pattern of FILO (First-In-Last-Out), _i.e._ the last element that is added to a stack would come out first. 
+We could convert recursion into iteration using a [[DSA/Data Structures/Stacks & Queues/Stack]]. Similar to the behaviors of the function call stack, a stack follows the pattern of FILO (First-In-Last-Out), _i.e._ the last element that is added to a stack would come out first. 
 
 Common problems:
 - factorial

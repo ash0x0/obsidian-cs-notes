@@ -4,8 +4,6 @@ sources:
   - https://www.geeksforgeeks.org/accumulate-and-partial_sum-in-c-stl-numeric-header/
   - https://www.geeksforgeeks.org/stdfind_if-stdfind_if_not-in-c/
 ---
-# Data Structures
-
 ## `std::accumulate()`
 
 ## `std::partial_sum()`

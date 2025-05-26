@@ -45,7 +45,7 @@ sources:
 	7. What can we store or [[Memoization|Memoize]] to save time?
 	8. If array related, consider [[Sorting]]
 	9. If search related, consider [[Binary Search]]
-	10. If parsing [[Tree]] or [[Graphs]] or traversal or reversal consider a [[Stack]]
+	10. If parsing [[Tree]] or [[Graphs]] or traversal or reversal consider a [[DSA/Data Structures/Stacks & Queues/Stack]]
 	11. If dealing with lots of strings, try putting them in a [[Trie|Prefix Tree]]
 	12. Does solving the problem for `n-1` help solve it for `n`? Consider [[Dynamic Programming]]
 	13. Does the problem have optimal substructure? optimal solution to sub-problems helps get optimal solution to the problems? Consider [[Greedy Algorithms]]

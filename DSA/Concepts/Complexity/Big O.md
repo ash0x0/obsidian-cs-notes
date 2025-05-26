@@ -75,7 +75,7 @@ In an interview, you can prevent this error by not using `n`, or by only using i
 
 ## Amortized time
 
-In the case of [[Vector]] growth for example, the data structure grows in size infrequently. Even though this growth is [[O(n)]], it's so infrequent that it can be amortized over all the access and insertion operations, essentially bringing actual time to [[O(1)]]
+In the case of [[DSA/Data Structures/Vector]] growth for example, the data structure grows in size infrequently. Even though this growth is [[O(n)]], it's so infrequent that it can be amortized over all the access and insertion operations, essentially bringing actual time to [[O(1)]]
 
 # Space complexity
 

@@ -6,7 +6,7 @@ aliases:
 
 Traverse a tree going all the way to a leaf then back to the root to get to another branch. Usually using a stack to keep track of the parent nodes.
 
-> **Note**: It is easy to do traversal with [[Recursion]] but when the depth of the tree is too large, we might suffer from `stack overflow`. That's one of the main reasons why we want to traverse iteratively with [[Stack]].
+> **Note**: It is easy to do traversal with [[Recursion]] but when the depth of the tree is too large, we might suffer from `stack overflow`. That's one of the main reasons why we want to traverse iteratively with [[DSA/Data Structures/Stacks & Queues/Stack]].
 # Mechanism
 
 1. Start at the root of the tree
