@@ -20,4 +20,3 @@ sources:
 # Common Problems
 
 - Find the single non-repeating number
-- Count set bits
