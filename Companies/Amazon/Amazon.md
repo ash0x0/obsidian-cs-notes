@@ -6,11 +6,26 @@ sources:
 
 ## Online Application
 
-## Assessments
+## Online Assessment
 
 ## Phone Screen
 
+### Technical Interview
+
+#### Coding
+
+- Big-O, design patterns
+- Sets, Lists, Arrays, Classes, Queues, Stacks, Hash Tables, and Binary Trees
+- OOP
+- Always communicate the "why" behind your decisions, choices and, tradeoffs. Especially choice of data structures
+#### System Design
+
+- Caching
+- Adding hardware
+- Scalability, availability, performance
 ## Interview Round
+
+### Technical Interview
 ## [[Leadership Principles]]
 ## Process
 - Online assessment

@@ -8,13 +8,28 @@ sources:
 
 ## Build Story Bank
 
-For each LP, brainstorm 2-3 moments from your career that show you _lived_ that principle. Prefer stories that are:
+For each LP, brainstorm 2-3 moments from your career that show you **lived** or demonstrated that principle, as well as 2-3 moments when you didn't. 
+
+Feel free to be vocally self-critical and don't be afraid to talk about your mistakes.
+
+The are looking for **Data Driven Decision**. Making the answers to provide numbers/metrics to back up the actions and outcomes in the examples is crucial for a successful answer. Without data to back up the answers it will be very difficult for the interviews to assess the measurable successes in the story. Include as much **metrics and data points** to show the outcome
+
+The are looking for examples that have scale, scope and complexity. 
+
+How did you impact customers and your team?
+What exactly did you drive and contribute towards?
+What was the metric before the situation and after your impact?
+**N.B. make sure that every story has a concrete result, e.g. time to market was reduced by 2 weeks, sprint cycle was reduced by 2 hours, £5000 cost saving etc.** 
+They are looking for examples where you went above and beyond the norm in order to calibrate the effectiveness for this Leadership Principle. 
+Include data point to show the successes. Visit this video link for more practice: [https://www.youtube.com/watch?v=CpcxVE5JIX4](https://9n3bwgl2.r.us-west-2.awstrack.me/L0/https:%2F%2Fwww.youtube.com%2Fwatch%3Fv=CpcxVE5JIX4/1/02010000mn9ikcd6-rpkbbq46-fvi4-i6lh-ugcs-blr20p0d8i80-000000/tcHagTRapZfXjDS56e_pdEEJM9w=428 "https://9n3bwgl2.r.us-west-2.awstrack.me/L0/https:%2F%2Fwww.youtube.com%2Fwatch%3Fv=CpcxVE5JIX4/1/02010000mn9ikcd6-rpkbbq46-fvi4-i6lh-ugcs-blr20p0d8i80-000000/tcHagTRapZfXjDS56e_pdEEJM9w=428")
+
+Prefer stories that are:
 
 - **Recent** (≤ 3 years), **high-impact**, and **data-rich**.
 - **Varied**—don’t reuse the same project for multiple principles unless it is truly exceptional.
 - **Tension-balanced** (e.g., a “Dive Deep” example that also shows you avoided analysis-paralysis, or a “Think Big” story tempered by “Bias for Action”). ([About Amazon](https://www.aboutamazon.com/news/workplace/what-do-each-of-amazons-leadership-principles-really-mean "An interviewer dives deep on Amazon's 16 Leadership Principles"))
 
-Put each story in STARI bullet form. Time yourself telling it in < 2 minutes; trim mercilessly.
+Put each story in STAR-I bullet form. Time yourself telling it in < 2 minutes; trim mercilessly.
 ## Study Plan
 
 | Day | Focus                                                                        | Deliverable                        |
@@ -40,3 +55,11 @@ Put each story in STARI bullet form. Time yourself telling it in < 2 minutes; tr
 3. **Skipping ‘Improvement’** – Amazon prizes learning loops.
 4. **Saying ‘we’** – Own your contribution.
 5. **Ignoring contradictions** – Be ready to explain how you balanced, e.g., Frugality vs. Highest Standards.
+# Common Questions
+
+
+| LP                  | Questions                                                                              |
+| ------------------- | -------------------------------------------------------------------------------------- |
+| [[Deliver Results]] | - Tell me about a time when you delivered a project whilst working to a tight deadline |
+
+
