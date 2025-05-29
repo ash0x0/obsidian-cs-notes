@@ -3,7 +3,6 @@ sources:
   - https://www.dailycodingproblem.com/
 ---
 #DynamicProgramming #Facebook
-
 # Problem
 
 A builder is looking to build a row of `n` houses that can be of `k` different colors. He has a goal of minimizing cost while ensuring that no two neighboring houses are of the same color.
@@ -44,12 +43,11 @@ costs = [
 
 5. **Larger random example** 
 	- Verify correctness on random small arrays by brute force.
-## Brute-Force (Exhaustive Search) - [[O(k^n)]] time - [[O(n)]] space
+## Brute-Force (Exhaustive Search) - O(k^n) time - [[O(n)]] space
 
 Try every possible sequence of colors (kⁿ possibilities), skip sequences where adjacent colors match, track minimum cost.
 
-**Time Complexity:** O(kⁿ · n)
-**Space Complexity:** O(n) recursion depth
+Space complexity is recursion depth
 
 ```cpp
 #include <bits/stdc++.h>
@@ -91,7 +89,7 @@ int main() {
 
 ---
 
-## 2. Classic DP (O(n·k²))
+## 2. Classic DP - O(n·k²) time - O(n\*k) space
 
 **Idea.** Let `dp[i][c]` = minimum cost to paint up to house i with color c at i.  
 Transition:
@@ -102,8 +100,7 @@ dp[i][c] = cost[i][c] + min_{c'≠c}( dp[i-1][c'] )
 
 Compute row by row in O(k) per color by scanning previous row.
 
-**Time Complexity:** O(n·k²)  
-**Space Complexity:** O(n·k), can reduce to O(k) rolling array
+Can reduce to O(k) space rolling array
 
 ```cpp
 #include <bits/stdc++.h>
@@ -142,26 +139,17 @@ int main() {
 
 ---
 
-## 3. Optimized DP with Two Minimums (O(n·k))
+## 3. Optimized DP with Two Minimums O(n\*k) time - O(k) space
 
-**Idea.** For each row `i−1`, track:
-
-- `min1`, the smallest `dp[i−1][c]`, and its color `idx1`.
-    
+For each row `i−1`, track:
+- `min1`, the smallest `dp[i−1][c]`, and its color `idx1`.    
 - `min2`, the second smallest value.
-    
 
 Then for each color `c` at house `i`:
-
 - If `c != idx1`, use `min1`; else use `min2`.
-    
 - `dp[i][c] = cost[i][c] + (c!=idx1 ? min1 : min2)`.
-    
 
 This avoids the inner k-scan, yielding O(k) per row.
-
-**Time Complexity:** O(n·k)  
-**Space Complexity:** O(k)
 
 ```cpp
 #include <bits/stdc++.h>
@@ -204,15 +192,3 @@ int main() {
     return 0;
 }
 ```
-
----
-
-### Summary of Complexities
-
-|Approach|Time|Space|
-|---|---|---|
-|Brute Force|O(kⁿ · n)|O(n)|
-|DP with O(k²) Transition|O(n·k²)|O(k) or O(n·k)|
-|Optimized DP using two minimums|O(n·k)|O(k)|
-
-The **optimized DP** is the best choice for large n and k, running in **O(n·k)** time and **O(k)** extra space.
