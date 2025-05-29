@@ -2,7 +2,7 @@
 sources:
   - https://www.dailycodingproblem.com/
 ---
-#DynamicProgramming
+#DynamicProgramming #Facebook
 
 # Problem
 
@@ -46,9 +46,9 @@ costs = [
 	- Verify correctness on random small arrays by brute force.
 ## Brute-Force (Exhaustive Search) - [[O(k^n)]] time - [[O(n)]] space
 
-**Idea.** Try every possible sequence of colors (kⁿ possibilities), skip sequences where adjacent colors match, track minimum cost.
+Try every possible sequence of colors (kⁿ possibilities), skip sequences where adjacent colors match, track minimum cost.
 
-**Time Complexity:** O(kⁿ · n)  
+**Time Complexity:** O(kⁿ · n)
 **Space Complexity:** O(n) recursion depth
 
 ```cpp
