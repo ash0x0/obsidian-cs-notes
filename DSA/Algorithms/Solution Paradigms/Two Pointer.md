@@ -11,8 +11,10 @@ Usually this approach is of [[O(n)]] time complexity.
 3. Whenever you want to move an element from one position to another in an array
 4. Searching pairs in a sorted array or linked list
 5. Optimizing comparisons in a data structure to get better than [[O(n²)]] time
-6.  When dealing with sorted arrays (or Linked Lists) and need to find a set of elements that fulfill certain constraints
-7. The set of elements in the array is a pair, a triplet, or a subarray
+6. When you need an [[O(1)]] solution in a data structure
+7. When dealing with sorted arrays (or Linked Lists) and need to find a set of elements that fulfill certain constraints
+8. The set of elements in the array is a pair, a triplet, or a subarray
+9. When you're trying to find intersections between two data structures
 
 # Methodology
 

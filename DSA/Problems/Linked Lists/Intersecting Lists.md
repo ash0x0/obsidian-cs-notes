@@ -71,7 +71,7 @@ ListNode* BruteForceFindIntersection(ListNode* headA, ListNode* headB) {
 }
 ```
 
-## [[Hash Table|Hashmap]] - O(n+m) time - O(n) space
+## [[Hash Set]] - O(n+m) time - O(n) space
 
 ```cpp
 class Solution {
@@ -95,8 +95,14 @@ class Solution {
 		return new ListNode();
 	}
 }
+```
 
 
+## Optimized [[Hash Set]] - O(n+m) time - O(n) space
+
+This stores less items in the hash set and loops for fewer iterations. It's the same complexity but actual runtime and space overhead is less.
+
+```cpp
 ListNode* HashSetFindIntersection(ListNode* headA, ListNode* headB) {
     // First decide which list is shorter, so we store fewer nodes.
     ListNode* ptrA = headA;
@@ -125,6 +131,46 @@ ListNode* HashSetFindIntersection(ListNode* headA, ListNode* headB) {
     }
     return nullptr;
 }
-
 ```
 
+## [[Two Pointer]] - O(n+m) time - O(1) space
+
+1. Observe in the examples and problem that if two linked lists intersect then all the items after the intersections are the same, i.e. the two lists intersect in a node and its succeeding nodes, i.e. full tail.
+2. If we know the difference in lengths, we could advance a pointer in the longer list by that difference and start comparisons from there so we're not comparing the earlier nodes in the longer list needlessly.
+```cpp
+ListNode* OptimalFindIntersection(ListNode* headA, ListNode* headB) {
+    // 1. Compute lengths of both lists
+    int lenA = 0, lenB = 0;
+    ListNode* ptrA = headA;
+    ListNode* ptrB = headB;
+    while (ptrA) { ++lenA; ptrA = ptrA->next; }
+    while (ptrB) { ++lenB; ptrB = ptrB->next; }
+
+    // 2. Reset pointers to heads
+    ptrA = headA;
+    ptrB = headB;
+
+    // 3. Advance the pointer of the longer list by |lenA - lenB|
+    if (lenA > lenB) {
+        int diff = lenA - lenB;
+        while (diff-- > 0 && ptrA) {
+            ptrA = ptrA->next;
+        }
+    } else {
+        int diff = lenB - lenA;
+        while (diff-- > 0 && ptrB) {
+            ptrB = ptrB->next;
+        }
+    }
+
+    // 4. Move both pointers until they collide or both reach nullptr
+    while (ptrA && ptrB) {
+        if (ptrA == ptrB) return ptrA;
+        ptrA = ptrA->next;
+        ptrB = ptrB->next;
+    }
+
+    // If we exited the loop, there's no intersection
+    return nullptr;
+}
+```
