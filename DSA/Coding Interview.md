@@ -8,6 +8,8 @@ sources:
   - https://www.youtube.com/mycodeschool
   - https://www.youtube.com/channel/UCD8yeTczadqdARzQUp29PJw
   - https://www.youtube.com/@abdul_bari
+  - https://www.linkedin.com/pulse/20141120061048-6976444-ace-the-coding-interview-every-time/
+  - https://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html
 ---
 # Solution Steps
 

@@ -1,8 +1,10 @@
 ---
 sources:
   - https://www.amazon.jobs/en
+  - https://www.amazon.jobs/content/en/how-we-hire/interviewing-at-amazon
+  - https://www.educative.io/blog/crack-amazon-coding-interview-questions
 ---
-# [Interview](https://www.amazon.jobs/content/en/how-we-hire/interviewing-at-amazon)
+# Interview
 
 ## Online Application
 
@@ -23,14 +25,10 @@ sources:
 - Caching
 - Adding hardware
 - Scalability, availability, performance
+#### [[Leadership Principles]]
 ## Interview Round
 
 ### Technical Interview
+
+- [Educative Most Asked](https://www.educative.io/blog/crack-amazon-coding-interview-questions)
 ## [[Leadership Principles]]
-## Process
-- Online assessment
-	- Leetcode problems
-	- Leadership principles
-- Phone screening
-	- Could be two or three screenings
-	- If there are more then one of the recruiters isn't convinced or being interviewed by multiple teams at the same time

@@ -1,6 +1,7 @@
 ---
 HackerRank: https://www.hackerrank.com/challenges/one-week-preparation-kit-merge-two-sorted-linked-lists/problem
 ---
+#Amazon 
 # Problem
 
 Given pointers to the heads of two sorted linked lists, merge them into a single, sorted linked list. Either head pointer may be null meaning that the corresponding list is empty.
@@ -66,7 +67,7 @@ The second linked list is: 
 
 Hence, the merged linked list is:
 # Solution
-## Iterative - [[O(n)]] time - [[O(n)]] space
+## Iterative - O(m+n) time - [[O(1)]] space
 
 ```cpp
 SinglyLinkedListNode* mergeLists(SinglyLinkedListNode* head1, SinglyLinkedListNode* head2) {

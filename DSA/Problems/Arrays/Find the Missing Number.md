@@ -1,2 +1,0 @@
-# Solution
-## [[Cyclic Sort]]
