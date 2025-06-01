@@ -37,25 +37,6 @@ for (int i = 1; i < nums.size(); i++) {
 ![[Pasted image 20250509225504.png]]
 # Forms
 
-## Slow & Fast (Hare & Tortoise)
-
-1. One pointer starts from the first element of the array, this is the slow pointer
-2. The other pointer starts from the second element, this is the fast pointer
-3. The fast pointer is incremented to look ahead in the array to find the next element we want use to either
-	1. Fast pointer usually moves 2x as the slow
-	2. Compare with the element at the slow pointer
-	3. Replace the element at the slow pointer
-4. This can be used to find the midpoint, with the slow pointer being at the middle. Also to detect cycles
-### Examples
-
-1. Dealing with a loop in a linked list or array
-2. Need to know the position of a certain element or the overall length of a linked list.
-3. Moving elements ahead in an array
-4. Trying to determine if a linked list is a palindrome
-5. Dealing with cyclic linked lists or arrays. The fast pointer should catch the slow pointer once both the pointers are in a cyclic loop.
-
-![[Pasted image 20250509225824.png]]
-
 ## Front & Back
 
 1. Sort the array (if order doesn’t matter) 
@@ -65,3 +46,20 @@ for (int i = 1; i < nums.size(); i++) {
 5. Usually stopping the loop before both pointers equal one another
 	1. `while(left < right)`
 	2. `while(right > left)`
+## Slow & Fast ([[Floyd's Cycle Detection]])
+
+1. One pointer starts from the first element, this is the slow pointer
+2. The other pointer starts from the second element, this is the fast pointer
+3. Fast pointer usually moves 2x as the slow
+4. The fast pointer is incremented to look ahead in the data structure to find the next element we want use
+	1. Compare with the element at the slow pointer
+	2. Replace the element at the slow pointer
+### Examples
+
+1. Dealing with a loop in a linked list or array
+2. Need to know the position of a certain element or the overall length of a linked list.
+3. Moving elements ahead in an array
+4. Trying to determine if a linked list is a palindrome
+5. Dealing with cyclic linked lists or arrays.
+
+![[Pasted image 20250509225824.png]]
