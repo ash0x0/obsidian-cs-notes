@@ -6,15 +6,20 @@ Usually this approach is of [[O(n)]] time complexity.
 
 # When to use
 
-1. Whenever you want to compare two elements within a data structure
-2. Whenever you're thinking of a nested loop solution
-3. Whenever you want to move an element from one position to another in an array
-4. Searching pairs in a sorted array or linked list
-5. Optimizing comparisons in a data structure to get better than [[O(n²)]] time
-6. When you need an [[O(1)]] solution in a data structure
-7. When dealing with sorted arrays (or Linked Lists) and need to find a set of elements that fulfill certain constraints
-8. The set of elements in the array is a pair, a triplet, or a subarray
-9. When you're trying to find intersections between two data structures
+1. Input is an [[Array]] or [[Linked List]].
+2. Find pairs/triplets with certain sums.
+3. Detect cycles.
+4. Check palindromes.
+5. Compare two elements.
+6. Optimizing a nested loop solution to [[O(1)]] solution
+7. Move an element from one position to another in an array
+8. Searching pairs in a sorted array or linked list
+9. Optimizing comparisons to get better than [[O(n²)]] time
+10. Find a set of elements that fulfill certain constraints
+11. The set of elements in the array is a pair, a triplet, or a subarray
+12. Find intersections between two data structures
+13. Find middle of a linked list.
+14. Find cycle in linked list.
 
 # Methodology
 
@@ -37,8 +42,10 @@ for (int i = 1; i < nums.size(); i++) {
 1. One pointer starts from the first element of the array, this is the slow pointer
 2. The other pointer starts from the second element, this is the fast pointer
 3. The fast pointer is incremented to look ahead in the array to find the next element we want use to either
-	1. Compare with the element at the slow pointer
-	2. Replace the element at the slow pointer
+	1. Fast pointer usually moves 2x as the slow
+	2. Compare with the element at the slow pointer
+	3. Replace the element at the slow pointer
+4. This can be used to find the midpoint, with the slow pointer being at the middle. Also to detect cycles
 ### Examples
 
 1. Dealing with a loop in a linked list or array
@@ -51,11 +58,10 @@ for (int i = 1; i < nums.size(); i++) {
 
 ## Front & Back
 
-1. One pointer starts from the front of the array
-2. The other pointer starts from the back of the array
-3. Usually stopping the loop before both pointers equal one another
+1. Sort the array (if order doesn’t matter) 
+2. One pointer starts from the front of the array
+3. The other pointer starts from the back of the array
+4. Moving inward depending on the sum or condition
+5. Usually stopping the loop before both pointers equal one another
 	1. `while(left < right)`
 	2. `while(right > left)`
-### Examples
-
-1. Palindromes, like [[9. Palindrome Number]]

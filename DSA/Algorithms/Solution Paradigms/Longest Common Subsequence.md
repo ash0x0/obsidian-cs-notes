@@ -1,4 +1,0 @@
----
-aliases:
-  - Longest Common Substring
----

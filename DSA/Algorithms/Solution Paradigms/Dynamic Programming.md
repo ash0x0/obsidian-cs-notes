@@ -13,7 +13,7 @@ A programming paradigm to explore all possible solutions to a problem. Problems 
 
 This is similar to:
 
-1. [[Greedy Algorithms]] in which problems have optimal substructure, but not overlapping ones.
+1. [[Greedy Algorithm]] in which problems have optimal substructure, but not overlapping ones.
 2. [[Divide & Conquer]] algorithms that break a problem into subproblems, but not overlapping ones.
 
 # Identification
