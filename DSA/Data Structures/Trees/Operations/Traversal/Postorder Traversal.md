@@ -15,5 +15,3 @@ It is easier to write a program to parse a post-order expression. Here is an exa
 You can figure out the original expression with [[Inorder Traversal]]. But it's not easy for a program to handle the expression since you have to check the priorities of operations.
 
 With postorder, you can easily handle the expression using a [[DSA/Data Structures/Stacks & Queues/Stack]]. Each time you meet an operator, you pop 2 elements from the stack for the operands, calculate the result and push the result back into the stack.
-
-# [[145. Binary Tree Postorder Traversal]]

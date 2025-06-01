@@ -11,4 +11,3 @@ After removing each node from the queue, we also insert all of its children into
 - [[Level Order Traversal]]
 - [[Zig-Zag Traversal]]
 
-[^1]: 
