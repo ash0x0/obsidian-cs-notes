@@ -4,10 +4,7 @@ sources:
   - https://www.youtube.com/playlist?list=PLUl4u3cNGP60UlabZBeeqOuoLuj_KNphQ
 ---
 
-Prime number optimizations: 
 - [[Sieve of Eratosthenes]]
-
-Greatest Common Divisor (GCD):
 - [[Euclidean Algorithm]]
 
 Modular arithmetic and its applications

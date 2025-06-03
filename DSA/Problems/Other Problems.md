@@ -1,5 +1,0 @@
-- [Union find](https://www.geeksforgeeks.org/introduction-to-disjoint-set-data-structure-or-union-find-algorithm/)
-- Reverse a linked list / binary
-- Tries
-- No Red-Black trees or AVL trees
-- Graphs

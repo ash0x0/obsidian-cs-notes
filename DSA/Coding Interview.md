@@ -38,20 +38,6 @@ sources:
 	3. Use data structures generously. This shows you're comfortable with them and care about good OOP design
 	4. When writing on whiteboard or paper, start from upper lefthand corner to not crowd your code
 8. Optimize using [[BUD Optimization]]
-	1. Look for ununsed info
-	2. Solve manually on an example and reverse engineer how the algorithm works
-	3. Solve incorrectly and think about why the algorithm fails
-	4. Use a fresh and different example if stuck
-	5. Make time vs space tradeoffs. [[Hash Structures]] are useful
-	6. Pre-process information. Maybe sort the array first, etc.
-	7. What can we store or [[Memoization|Memoize]] to save time?
-	8. If array related, consider [[Sorting]]
-	9. If search related, consider [[Binary Search]]
-	10. If parsing [[Tree]] or [[Graphs]] or traversal or reversal consider a [[DSA/Data Structures/Stacks & Queues/Stack]]
-	11. If dealing with lots of strings, try putting them in a [[Trie|Prefix Tree]]
-	12. Does solving the problem for `n-1` help solve it for `n`? Consider [[Dynamic Programming]]
-	13. Does the problem have optimal substructure? optimal solution to sub-problems helps get optimal solution to the problems? Consider [[Greedy Algorithm]]
-	14. Do you have to take min/max of a dynamic collection? Consider [[Heap]]
 9. Test the code
 	1. Conceptually walk through the code like in a detailed code review
 	2. Test happy paths

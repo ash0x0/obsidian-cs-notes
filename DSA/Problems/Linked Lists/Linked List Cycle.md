@@ -1,2 +1,0 @@
-# Solution
-## [[Two Pointer]]
