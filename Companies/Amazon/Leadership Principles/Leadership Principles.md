@@ -106,5 +106,6 @@ Doing this repeatedly trains your pattern-matching for the real test.
 [[Success and Scale Bring Broad Responsibility]] and [[Strive to be Earth's Best Employer]] are not included in interviews
 [[Frugality]] is included mostly in finance interviews
 [[Hire and Develop the Best]] are mostly in manager interviews
+[[Think Big]] and [[Are Right, A Lot]] are leadership position oriented
 
 ![[Pasted image 20250615022911.png]]
