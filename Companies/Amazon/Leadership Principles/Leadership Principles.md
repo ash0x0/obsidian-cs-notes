@@ -100,3 +100,11 @@ Online assessment shows “choose the **best** and **worst** response” scenari
 3. Eliminate answers that violate any LP (e.g., blaming others breaks Earn Trust).
 
 Doing this repeatedly trains your pattern-matching for the real test.
+
+## Focused Study
+
+[[Success and Scale Bring Broad Responsibility]] and [[Strive to be Earth's Best Employer]] are not included in interviews
+[[Frugality]] is included mostly in finance interviews
+[[Hire and Develop the Best]] are mostly in manager interviews
+
+![[Pasted image 20250615022911.png]]

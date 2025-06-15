@@ -1,0 +1,1 @@
+Most sorting algorithms are [[Comparison Sort]], i.e. they sort a list just by comparing the elements to one another. A comparison sort algorithm cannot beat [[O(n log n)]] (worst-case) running time, since `n log(n)` represents the minimum number of comparisons needed to know where to place each element.

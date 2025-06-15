@@ -57,7 +57,6 @@ Put each story in STAR-I bullet form. Time yourself telling it in < 2 minutes; t
 5. **Ignoring contradictions** – Be ready to explain how you balanced, e.g., Frugality vs. Highest Standards.
 # Common Questions
 
-
 | LP                  | Questions                                                                              |
 | ------------------- | -------------------------------------------------------------------------------------- |
 | [[Deliver Results]] | - Tell me about a time when you delivered a project whilst working to a tight deadline |

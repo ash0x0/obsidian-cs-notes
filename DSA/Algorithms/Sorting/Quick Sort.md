@@ -1,4 +1,4 @@
-
+  
 Quick sort is of [[O(n log n)]] time on average and [[O(n²)]] worst case when the array is already sorted.
 
 From Algorithms class: • array rearranged such that, when two subarrays sorted, the whole array is ordered (contra merge where array is broken into 2 subarrays to be sorted and then combined to make whole ordered array) • recursive calls happen after working on whole array • partition/pivot not necessarily in middle (Or necessarily the median value, leading to the worst case performance). • improvements: insertion sort for tiny arrays, median of 3, randomize beforehand • strength: average case N log N, in-place so small usage of memory (small aux stack), shorter inner loop so fast in practice as well • weakness: worst case is quadratic, happens with already sorted array (where pivot = first item)
