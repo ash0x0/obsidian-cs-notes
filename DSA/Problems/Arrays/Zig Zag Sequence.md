@@ -1,8 +1,7 @@
+#TODO 
 # Solution
 
 ```cpp
-  
-1 2 3 4 5 6 7, 7
 void findZigZagSequence(vector < int > a, int n) {
 	sort(a.begin(), a.end());
 	int mid = (n + 1)/2 - 1; // 8 / 2 = 4
