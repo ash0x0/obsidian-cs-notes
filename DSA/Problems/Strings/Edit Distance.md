@@ -1,4 +1,4 @@
-#Google #DailyCodingProblem 
+#Google #DailyCodingProblem #Easy
 # Problem
 
 The edit distance between two strings refers to the minimum number of character insertions, deletions, and substitutions required to change one string to the other. 

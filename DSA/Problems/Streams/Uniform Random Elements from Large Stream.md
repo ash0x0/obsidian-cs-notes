@@ -1,8 +1,10 @@
-#Google #Facebook 
+#Google #Facebook #DailyCodingProblem
 # Problem
 
 Uniformly picking a random element from a gigantic stream.
+## Alternative
 
+Given a stream of elements too large to store in memory, pick a random element from the stream with uniform probability.
 # Solution
 
 Naively, we could process the stream and store all the elements we encounter in a list, find its size, and pick a random element from `[0, size - 1]`. The problem with this approach is that it would take O(N) space for a large N.

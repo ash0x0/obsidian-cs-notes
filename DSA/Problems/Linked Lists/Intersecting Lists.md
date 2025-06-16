@@ -1,8 +1,4 @@
----
-sources:
-  - https://www.dailycodingproblem.com/
----
-#Google #LinkedLists #DailyCodingProblem
+#Google #LinkedLists #DailyCodingProblem #Easy 
 # Problem
 
 Given two singly linked lists that intersect at some point, find the intersecting node. The lists are non-cyclical.
@@ -12,7 +8,6 @@ For example, given A = 3 -> 7 -> 8 -> 10 and B = 99 -> 1 -> 8 -> 10, return the 
 In this example, assume nodes with the same value are the exact same node objects.
 
 Do this in O(M + N) time (where M and N are the lengths of the lists) and constant space.
-
 # Solution
 
 ```cpp
@@ -96,8 +91,6 @@ class Solution {
 	}
 }
 ```
-
-
 ## Optimized [[Hash Set]] - O(n+m) time - O(n) space
 
 This stores less items in the hash set and loops for fewer iterations. It's the same complexity but actual runtime and space overhead is less.

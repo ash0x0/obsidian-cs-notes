@@ -1,8 +1,4 @@
----
-sources:
-  - https://www.dailycodingproblem.com/
----
-#DynamicProgramming #Facebook
+#DynamicProgramming #Facebook #Medium #DailyCodingProblem #TODO 
 # Problem
 
 A builder is looking to build a row of `n` houses that can be of `k` different colors. He has a goal of minimizing cost while ensuring that no two neighboring houses are of the same color.
@@ -86,8 +82,6 @@ int main() {
     return 0;
 }
 ```
-
----
 
 ## 2. Classic DP - O(n·k²) time - O(n\*k) space
 
