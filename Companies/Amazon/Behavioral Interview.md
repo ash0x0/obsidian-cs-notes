@@ -41,7 +41,6 @@ Put each story in STAR-I bullet form. Time yourself telling it in < 2 minutes; t
 | 5   | Take two situational-judgement practice sets                                 | Score & review gaps                |
 | 6   | Mock interview with peer/AI; record yourself                                 | Written feedback & metrics         |
 | 7   | Polish: tighten metrics, add one failure example, print one-page cheat sheet | Ready for assessment               |
-
 # Evaluation
 
 - Every behavioral interview question is mapped to one or two LPs; Bar Raisers ensure consistency.
@@ -55,10 +54,3 @@ Put each story in STAR-I bullet form. Time yourself telling it in < 2 minutes; t
 3. **Skipping ‘Improvement’** – Amazon prizes learning loops.
 4. **Saying ‘we’** – Own your contribution.
 5. **Ignoring contradictions** – Be ready to explain how you balanced, e.g., Frugality vs. Highest Standards.
-# Common Questions
-
-| LP                  | Questions                                                                              |
-| ------------------- | -------------------------------------------------------------------------------------- |
-| [[Deliver Results]] | - Tell me about a time when you delivered a project whilst working to a tight deadline |
-
-
