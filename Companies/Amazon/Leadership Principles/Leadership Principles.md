@@ -89,8 +89,6 @@ Amazon assesses you against _exact_ phrasing of all 16 Leadership Principles. Me
 ## Internalize the nuance
 
 Watch Andy Jassy’s breakdown. Watch once for context, then re-watch each principle segment and prepare a one-sentence takeaway.
-
-Jassy explains _why_ “Are Right, A Lot” is paired with “Learn and Be Curious”, and how “Success & Scale” forces Amazonians to think about secondary effects.
 ## Practice Situational Judgement
 
 Online assessment shows “choose the **best** and **worst** response” scenarios.
@@ -100,12 +98,9 @@ Online assessment shows “choose the **best** and **worst** response” scenari
 3. Eliminate answers that violate any LP (e.g., blaming others breaks Earn Trust).
 
 Doing this repeatedly trains your pattern-matching for the real test.
-
 ## Focused Study
 
-[[Success and Scale Bring Broad Responsibility]] and [[Strive to be Earth's Best Employer]] are not included in interviews
+[[Success and Scale Bring Broad Responsibility]] and [[Strive to be Earth's Best Employer]] are usually not included in interviews
 [[Frugality]] is included mostly in finance interviews
 [[Hire and Develop the Best]] are mostly in manager interviews
 [[Think Big]] and [[Are Right, A Lot]] are leadership position oriented
-
-![[Pasted image 20250615022911.png]]
