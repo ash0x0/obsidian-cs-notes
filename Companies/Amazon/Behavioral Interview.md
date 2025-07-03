@@ -54,3 +54,13 @@ Put each story in STAR-I bullet form. Time yourself telling it in < 2 minutes; t
 3. **Skipping ‘Improvement’** – Amazon prizes learning loops.
 4. **Saying ‘we’** – Own your contribution.
 5. **Ignoring contradictions** – Be ready to explain how you balanced, e.g., Frugality vs. Highest Standards.
+## Tips
+
+- **Start with the customer.** Amazon is customer-obsessed, and it is essential you include the customer, whether internal or external, in your situation. Be able to put the customer's viewpoint by starting with the customer working backwards.
+- **Use multiple examples.** We recommend not using the same story or example more than once.
+- **Be detailed and specific.** Don't generalize about several events; give a detailed account of one event when providing examples. Share details and provide data to support your reasoning.
+- **I, before we.** This interview is an opportunity for Amazon to learn about what you have owned and accomplished. Use words like "I owned" or "I did" and avoid "we did" or "my manager…".
+- **Show how you deal with ambiguity.** Demonstrate that you can handle intentionally vague requirements; change strategies quickly when the approach doesn't work; work through open-ended questions; be adaptable & quick learning.
+- **Leverage notes.** You are allowed to have notes during the interview, but don't become dependent on them. Make sure you call it out to the interviewer as well.
+- **Providing prompts and hints.** Interviewers may ask you to consider something you haven’t mentioned or look at something in a new light. Take that feedback into consideration as you continue with your interview.
+- **Redirecting and interrupting.** Our interviewers are conducting the interview to learn more about your skills and experiences on specific competencies. So, they may redirect and interrupt to help keep the conversation on track or to give you the opportunity to unveil a key criteria they're looking for.

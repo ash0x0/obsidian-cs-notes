@@ -1,7 +1,7 @@
 # Technical Interview
 
 ## [[DSA/Coding Interview]]
-## [[System Design]]
+## [[System.Design/System Design]]
 
 # [[Behavioral/Behavioral Interview|Behavioral Interview]]
 
