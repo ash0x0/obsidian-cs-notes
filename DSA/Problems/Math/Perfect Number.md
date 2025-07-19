@@ -22,9 +22,40 @@ Given an integer `n`, return `true` _if_ `n` _is a perfect number, otherwis
 
 # Solution
 
+## Brute Force - [[O(n)]] time - [[O(1)]] space
+
 ```cpp
 class Solution {
-	public:
-	
-}
+public:
+    bool checkPerfectNumber(int num) {      
+        int sum = 0;
+        for (int i = 1; i < num; i++) {
+            if (num % i == 0) sum += i;
+        }
+        return sum == num;
+    }
+};
+```
+
+## Square Root - [[O(n)]] time - [[O(1)]] space
+
+Minimize the steps by adding both divisors at once.
+Minimize search space by going up to the square root of the number.
+
+```cpp
+class Solution {
+public:
+    bool checkPerfectNumber(int num) {      
+        if (num <= 1) return false;
+        int sum = 1;
+        
+        for (int i = 2; i <= sqrt(num); i++) {
+            if (num % i == 0) {
+                sum += i;
+                if (i != num / i) sum += num / i;
+            }
+        }
+        return sum == num;
+    }
+};
 ```
