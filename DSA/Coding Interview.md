@@ -11,6 +11,26 @@ sources:
   - https://www.linkedin.com/pulse/20141120061048-6976444-ace-the-coding-interview-every-time/
   - https://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html
 ---
+# Checklist
+
+1. Get clarity on the problem
+2. Come up with examples and answers to each
+3. Come up with edge cases and outliers
+4. Come up with brute force or naive solution
+5. State the time and space complexity
+6. Try out the examples to show they work
+7. Optimize the solution to better complexity
+	1. Data structures
+		1. Hash table
+		2. Hash set
+		3. Linked List
+		4. Struct
+	2. Sorting or pre-processing
+	3. Remove a constraint
+	4. Find a pattern in examples
+8. Repeat steps 5 to 7
+9. Check for bugs and missing declarations, initializations, hot spots, etc.
+10. Get feedback on whether we've addressed everything
 # Solution Steps
 
 1. Listen and pay attention to the problem description
