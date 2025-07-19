@@ -1,36 +1,30 @@
-#Microsoft #DailyCodingProblem #Easy
+---
+Leetcode: https://leetcode.com/problems/perfect-number/description/
+---
 # Problem
 
-A number is considered perfect if its digits sum up to exactly 10.
-Given a positive integer `n`, return the `n`-th perfect number.
-For example, given 1, you should return 19. Given 2, you should return 28.
+A [**perfect number**](https://en.wikipedia.org/wiki/Perfect_number) is a **positive integer** that is equal to the sum of its **positive divisors**, excluding the number itself. A **divisor** of an integer `x` is an integer that can divide `x` evenly.
+
+Given an integer `n`, return `true` _if_ `n` _is a perfect number, otherwise return_ `false`.
+
+**Example 1:**
+**Input:** num = 28
+**Output:** true
+**Explanation:** 28 = 1 + 2 + 4 + 7 + 14
+1, 2, 4, 7, and 14 are all divisors of 28.
+
+**Example 2:**
+**Input:** num = 7
+**Output:** false
+
+**Constraints:**
+- `1 <= num <= 108`
+
 # Solution
-
-## Brute Force - [[O(1)]] time - [[O(1)]] space
-
-Because this is a two digit number, we know that the digitSum function will only have 2 iterations so it's constant time.
-We also know that the perfectNumber function will have at most 9 iterations, so it's also constant time.
-
-O(9 * 2) = O(1)  
 
 ```cpp
 class Solution {
-	int digitSum(int number) {
-		int sum = 0;
-		while (number != 0) {
-			sum += number % 10;
-			number /= 10;
-		}
-		return sum;
-	}
-
-	int perfectNumber(int digit) {
-		for (int i = 0; i < 10; i++) {
-			int number = digit * 10 + i;
-			if (digitSum(number) == 10) {
-				return number;
-			}
-		}
-	}
+	public:
+	
 }
 ```
