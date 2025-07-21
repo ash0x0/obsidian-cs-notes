@@ -7,7 +7,7 @@
 
 # Interviewee Questions
 
-- What does success look like for this position?
+- What does success look like for this position
 	- How will I know if I am accomplishing what is expected of me?
 - What is the last project you shipped?
 	- What was the goal, how long did it take, what were the stumbling blocks, what tools did you use?
@@ -64,9 +64,3 @@ When you reject an offer, leave an open line of communication.
 	8. Performance compensation
 	9. Equity
 6. Do it over the phone if you can, but if that's not possible or too much stress, use your best medium
-# General Tips
-
-1. First impressions matter
-	1. Resume
-	2. Dress-code
-	3. Mirror checks

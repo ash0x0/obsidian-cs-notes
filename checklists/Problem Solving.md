@@ -1,0 +1,20 @@
+- [ ] Get clarity on problem
+- [ ] Ask about input data and what it means
+- [ ] Ask about output data and what it means
+- [ ] Come up with examples
+- [ ] Come up with edge cases and outliers
+- [ ] Come up with brute force solution
+- [ ] State brute force verbally and in comments
+- [ ] State time and space complexity
+- [ ] Optimize and iterate
+	- [ ] Data Structures
+		- [ ] [[Hash Table|Hashmap]]
+		- [ ] [[Hash Set]]
+		- [ ] [[Linked List]]
+		- [ ] Struct
+	- [ ] [[Sorting]]
+	- [ ] Remove a constraing
+	- [ ] Find pattern in examples
+- [ ] Test algorithm with one of the inputs
+- [ ] Find bugs
+- [ ] Get feedback if everything is addressed or something is missing

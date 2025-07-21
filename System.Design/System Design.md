@@ -33,11 +33,7 @@
 - [[Object-Oriented Design (OOD)]]
 - [[Domain-Driven Design (DDD)]]
 - [[Singleton]]
-- 
-
 # Testing
-
-
 
 # Programming Paradigms
 
