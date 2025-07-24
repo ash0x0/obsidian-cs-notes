@@ -41,6 +41,7 @@ public:
 
 Minimize the steps by adding both divisors at once.
 Minimize search space by going up to the square root of the number.
+This is because the largest factor $a$ in $a*b$ will be $sqrt(n)$ after which $a$ and $b$ cross-over and we start trying duplicate factor pairs.
 
 ```cpp
 class Solution {
