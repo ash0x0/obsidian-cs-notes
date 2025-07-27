@@ -21,6 +21,7 @@ intersection([4,2,1], [1,2,4,6]) # -> [1,2,4]
 ```
 
 # Solution
+## [[Hash Set]] - [[O(n)]] time - [[O(n)]] space
 
 ```cpp
 vector<int> intersection(vecton<int> a, vector<int> b) {
