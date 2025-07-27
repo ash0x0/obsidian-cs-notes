@@ -8,5 +8,6 @@
   "mermaid-tools",
   "editing-toolbar",
   "mermaid-popup",
-  "meld-encrypt"
+  "meld-encrypt",
+  "execute-code"
 ]
