@@ -28,7 +28,10 @@ int main() {
   
     // Initialize an unordered_set using
     // using intializer list
-    unordered_set<int> us2 = {1, 2, 3, 4, 5};    
+    unordered_set<int> us2 = {1, 2, 3, 4, 5};  
+    
+    vector<int> a = [1, 2, 3];
+	unordered_set<int> us3(v.begin(), v.end());
     
     // Insert elments using insert()
     us.insert(3);

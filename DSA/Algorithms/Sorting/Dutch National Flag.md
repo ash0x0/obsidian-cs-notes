@@ -1,6 +1,7 @@
 #Sorting
 
-This is a single-pass, in-place partitioning of an array into three groups, like the Dutch flag has three horizontal bands of colors (red, white, blue). 
+This is a single-pass, in-place partitioning of an array into three groups, like the Dutch flag has three horizontal bands of colors (red, white, blue).
+
 It’s a special case of multi-way partitioning, and forms the basis of efficient three-way [[Quick Sort]] and other algorithms where you need to group items by one of three categories.
 # Problem
 
