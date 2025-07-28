@@ -1,5 +1,5 @@
 - **Brute-Force / Simulation**: always start here if nothing else is obvious.
-- **Sorting + Two Pointers / Binary Search**: whenever the order can be exploited to reduce one dimension.
+- **[[Sorting]] + [[Two Pointer]] / [[Binary Search]]**: whenever the order can be exploited to reduce one dimension.
 - [[Sliding Window]]: fixed or variable-size subarray/substring problems.
 - [[Hash Table|Hash Map]]/[[Hash Set]]: O(1) lookups for counts, last-seen index, or memo.
 - [[DSA/Data Structures/Stacks & Queues/Stack|Stack]]/[[Queue]]: use when you need LIFO/FIFO, or to manage monotonicity (e.g. Next Greater Element, sliding window maximum).
@@ -7,8 +7,8 @@
 - [[Backtracking]]: exponential search with pruning (permutations, combinations).
 - [[Greedy Algorithm]]: pick an obvious best step (earliest finish time, maximum jump, etc.) and prove it.
 - [[Dynamic Programming|DP]]: overlapping subproblems; define state and recurrence, be careful with base cases.
-- **Divide & Conquer**: binary search, merge sort, kth element, matrix (Strassen’s), etc.
+- [[Divide & Conquer]]: binary search, merge sort, kth element, matrix (Strassen’s), etc.
 - [[Heap]] / [[Priority Queue]]: “top k,” merging k sorted lists, Dijkstra’s (with min-heap).
-- [[DSA/Solution Paradigms/Union Find|Union Find]] dynamic connectivity in an undirected graph (e.g. cycle detection, Kruskal’s MST).
+- [[DSA/Patterns/Union Find|Union Find]] dynamic connectivity in an undirected graph (e.g. cycle detection, Kruskal’s MST).
 - [[Bit Manipulation]]: XOR tricks, representing subsets in an integer mask, counting bits.
 - **Meet in the Middle**: split ≈40 elements into two ≈20-element halves and merge results.

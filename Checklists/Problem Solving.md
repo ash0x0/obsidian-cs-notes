@@ -13,7 +13,7 @@
 		- [ ] [[Linked List]]
 		- [ ] Struct
 	- [ ] [[Sorting]]
-	- [ ] Remove a constraing
+	- [ ] Remove a constraint
 	- [ ] Find pattern in examples
 - [ ] Test algorithm with one of the inputs
 - [ ] Find bugs

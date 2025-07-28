@@ -1,0 +1,5 @@
+- [ ] Review [[DSA/Coding Interview|Coding Interview]]
+	- [ ] Review patterns
+	- [ ] Review [[Pattern-wise Questions]]
+- [ ] Review [[System.Design/System Design|System Design]]
+- [ ] Review [[Behavioral/Behavioral Interview|Behavioral Interview]]
