@@ -1,5 +1,11 @@
-#TODO 
 # Problem
+
+Given an array of strings, determine if there are any strings where one is a prefix of another. If such a pair exists, the set is considered "bad". Otherwise, it's a "good" set.
+
+For example:
+- `["abc", "ab"]` is BAD (ab is a prefix of abc)
+- `["abc", "abd", "xyz"]` is GOOD (no string is a prefix of another)
+
 # Solution
 
 ## [[Hash Set]] - [[O(n²)]] time - [[O(n)]] space
@@ -41,6 +47,8 @@ void noPrefix(vector<string> words) {
 ```
 
 ## [[Trie]] - [[O(n*m)]] time - [[O(n*m)]] space
+
+A more efficient approach using a Trie data structure. The Trie allows us to check for prefix relationships while inserting.
 
 
 ```cpp
@@ -87,3 +95,23 @@ void noPrefix(vector<string> words) {
 	cout << "GOOD SET" << endl;
 }
 ```
+
+# Complexity Analysis
+
+- **Hash Set Approach**: 
+  - Time: [[O(n*m²)]] where n is number of words and m is average length
+  - Space: [[O(n*m)]]
+  
+- **Trie Approach**: 
+  - Time: [[O(n*m)]] where n is number of words and m is average length
+  - Space: [[O(n*m)]] for storing all characters
+
+# Related Topics
+
+- [[Trie]]
+- [[Hash Set]]
+- Prefix matching problems
+
+# Tags
+
+#HackerRank #Trie #Strings #Medium

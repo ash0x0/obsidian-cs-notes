@@ -1,4 +1,4 @@
-#DailyCodingProblem #Palantir #Medium #TODO 
+#DailyCodingProblem #Palantir #Medium 
 # Problem
 
 Write an algorithm to justify text. Given a sequence of words and an integer line length k, return a list of strings which represents each line, fully justified.

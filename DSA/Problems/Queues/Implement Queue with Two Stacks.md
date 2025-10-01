@@ -1,4 +1,4 @@
-#Apple #DailyCodingProblem #Medium #TODO 
+#Apple #DailyCodingProblem #Medium 
 # Problem
 
 Implement a queue using two stacks. Recall that a queue is a FIFO (first-in, first-out) data structure with the

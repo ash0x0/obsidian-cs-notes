@@ -1,4 +1,4 @@
-#DailyCodingProblem #Google #Hard #TODO 
+#DailyCodingProblem #Google #Hard 
 # Problem
 
 Suppose we represent our file system by a string in the following manner:
@@ -37,3 +37,62 @@ Note:
 The name of a file contains at least a period and an extension.
 
 The name of a directory or sub-directory will not contain a period.
+# Solution
+
+## Stack/HashMap Approach
+
+Use a stack or hashmap to track the path length at each depth level.
+
+```cpp
+int lengthLongestPath(string input) {
+    unordered_map<int, int> pathLengths;  // depth -> length
+    pathLengths[0] = 0;  // Initialize root
+    
+    int maxLength = 0;
+    istringstream iss(input);
+    string line;
+    
+    while (getline(iss, line)) {
+        // Count tabs to determine depth
+        int depth = 0;
+        while (depth < line.length() && line[depth] == '\t') {
+            depth++;
+        }
+        
+        // Get name without tabs
+        string name = line.substr(depth);
+        
+        // Check if it's a file (contains '.')
+        bool isFile = name.find('.') != string::npos;
+        
+        // Calculate current path length
+        int currentLength = pathLengths[depth] + name.length();
+        
+        if (isFile) {
+            maxLength = max(maxLength, currentLength);
+        } else {
+            // Add 1 for the '/' separator
+            pathLengths[depth + 1] = currentLength + 1;
+        }
+    }
+    
+    return maxLength;
+}
+```
+
+# Complexity
+
+- **Time Complexity**: [[O(n)]] where n is length of input string
+- **Space Complexity**: [[O(d)]] where d is maximum depth
+
+# Algorithm
+
+1. Parse input line by line
+2. Count tabs to determine depth
+3. Track cumulative path length at each depth
+4. For files, update maximum path length
+5. For directories, store path length for next level
+
+# Tags
+
+#Google #DailyCodingProblem #Hard #Strings #Stack #HashMap

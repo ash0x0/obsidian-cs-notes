@@ -1,4 +1,4 @@
-#Facebook  #DailyCodingProblem #Hard #TODO 
+#Facebook  #DailyCodingProblem #Hard 
 # Problem
 
 Implement regular expression matching with the following special characters:

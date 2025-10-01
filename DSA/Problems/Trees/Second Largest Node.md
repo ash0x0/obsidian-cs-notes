@@ -1,4 +1,4 @@
-#Dropbox #DailyCodingProblem #Medium #TODO 
+#Dropbox #DailyCodingProblem #Medium 
 # Problem
 
 Given the root to a binary search tree, find the second largest node in the tree.

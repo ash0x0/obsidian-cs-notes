@@ -1,4 +1,4 @@
-#DailyCodingProblem #Microsoft #TODO #Easy 
+#DailyCodingProblem #Microsoft #Easy 
 # Problem
 
 Suppose an arithmetic expression is given as a binary tree. Each leaf is an integer and each internal node is one of '+', '−', '∗', or '/'.

@@ -1,4 +1,4 @@
-#DailyCodingProblem #Hard #Palantir #TODO 
+#DailyCodingProblem #Hard #Palantir 
 # Problem
 Given a number represented by a list of digits, find the next greater permutation of a number, in terms of lexicographic ordering. If there is not greater permutation possible, return the permutation with the lowest value/ordering.
 

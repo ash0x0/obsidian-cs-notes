@@ -1,4 +1,4 @@
-#Amazon #DailyCodingProblem #Easy #TODO 
+#Amazon #DailyCodingProblem #Easy 
 # Problem
 
 Implement a stack that has the following methods:
