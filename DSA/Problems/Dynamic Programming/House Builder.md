@@ -1,4 +1,4 @@
-#DynamicProgramming #Facebook #Medium #DailyCodingProblem #TODO 
+#DynamicProgramming #Facebook #Medium #DailyCodingProblem 
 # Problem
 
 A builder is looking to build a row of `n` houses that can be of `k` different colors. He has a goal of minimizing cost while ensuring that no two neighboring houses are of the same color.

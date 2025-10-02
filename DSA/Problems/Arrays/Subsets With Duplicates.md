@@ -1,3 +1,3 @@
-#TODO 
+
 # Solution
 ## [[Subsets Paradigm]]

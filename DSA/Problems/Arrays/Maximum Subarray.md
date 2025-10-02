@@ -1,4 +1,4 @@
-#TODO #Amazon #DailyCodingProblem #Medium 
+#Amazon #DailyCodingProblem #Medium 
 # Problem
 
 ## DailyCodingProblem

@@ -1,7 +1,7 @@
 ---
 HackerRank: https://www.hackerrank.com/challenges/one-week-preparation-kit-lonely-integer/
 ---
-#Google #DailyCodingProblem #Hard #TODO 
+#Google #DailyCodingProblem #Hard 
 # Problem
 
 ## DailyCodingProblem
