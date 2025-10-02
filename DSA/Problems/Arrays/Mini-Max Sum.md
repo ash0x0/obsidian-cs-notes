@@ -1,7 +1,7 @@
 ---
 HackerRank: https://www.hackerrank.com/challenges/one-week-preparation-kit-mini-max-sum
 ---
-#TODO 
+
 # Solution
 
 ## [[Idiomatic C++]] - [[O(n)]] time - [[O(1)]] space 
